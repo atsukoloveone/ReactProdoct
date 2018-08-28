@@ -1,0 +1,15 @@
+{
+    //"extends": ["airbnb"],
+    "extends": ["eslint:recommended"],
+    "plugins": [],
+    "parserOptions": {},
+    "env": {"browser": true},
+    "globals": {},
+  "rules": {
+    "no-alert": 0,
+    "consistent-return": 1,
+    "react/jsx-filename-extension": 0,
+    "linebreak-style": ["error", "windows"]
+  }   
+    
+}
