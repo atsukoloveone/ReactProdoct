@@ -27,11 +27,12 @@ onDelete = (e) =>{
         data : JSON.stringify({'id' : productId}),
         success : function(response) {
             this.props.changeAppMode('read');
-        },
+        }.bind(this),
         error: function(xhr, resp, text){
             // show error in console
             console.log(xhr, resp, text);
         }
+
     });
 }
  
